@@ -5,3 +5,8 @@ title: "Holy cow!"
 ### I have a webpage!
 
 And I can put all kinds of stuff on it!
+
+
+I'd like to [go to google}(https://www.google.com/)
+
+[my about page](about.html)
