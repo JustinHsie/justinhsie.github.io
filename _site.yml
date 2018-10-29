@@ -13,4 +13,4 @@ navbar:
       href: https://www.linkedin.com/in/justinhsie/
 output:
   html_document:
-    theme: flatly
+    theme: simplex

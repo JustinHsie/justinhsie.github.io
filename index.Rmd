@@ -6,7 +6,7 @@ title: "Justin Hsie"
 
 Welcome to my website!
 
-Here is a nice picture of my dog
+Here is a picture of my dog
 
 <img src = "images/IMG_1491.jpg" style = "width:75%">
 
