@@ -1,12 +1,15 @@
 ---
-title: "Holy cow!"
+title: "Justin Hsie"
 ---
 
-### I have a webpage!
+###Hello!
 
-And I can put all kinds of stuff on it!
+Welcome to my website!
+
+Here is a nice picture of my dog
+
+<img src = "images/IMG_1491.jpg" style = "width:75%">
 
 
-I'd like to [go to google}(https://www.google.com/)
 
-[my about page](about.html)
+[About](about.html)

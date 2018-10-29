@@ -2,8 +2,8 @@
 title: "About"
 ---
 
-### About this site
+<img src = "images/IMG_1045.jpg" style = "width:30%">
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+My name is Justin Hsie, and I am a first year M.S. student studying Biostatistics at Columbia University.
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+Here is my [resume]
