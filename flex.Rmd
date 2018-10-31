@@ -6,7 +6,7 @@ output:
     vertical_layout: fill
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include = FALSE}
 library(flexdashboard)
 library(tidyverse)
 library(viridis)
@@ -14,7 +14,7 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-```{r clean up noaa data}
+```{r clean up noaa data, include = FALSE}
 noaa = ny_noaa %>% 
   separate(date, into = c("year", "month", "day"), sep = "-") %>% 
   mutate(tmax = as.numeric(tmax)) %>% 
