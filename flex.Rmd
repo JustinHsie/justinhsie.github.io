@@ -27,21 +27,6 @@ snowfall = sort(table(noaa$snow), decreasing = TRUE)[1:3]
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Snowfall
-
-```{r snow, warning = FALSE}
-snow_data = noaa %>%
-  select(year, month, day, id, snow) %>%
-  filter(snow > 0 & snow < 150, 
-         year == "1994":"2008")
-plot_ly(snow_data, y = ~snow, color = ~year, type = "box",
-          colors = "Set2")
-```
-
-
-Column {data-width=350}
------------------------------------------------------------------------
-
 ### Mean Temperature
 
 ```{r temp plot, warning = FALSE}
@@ -53,6 +38,19 @@ temp = noaa %>%
 plot_ly(temp, x = ~year, y = ~mean, type = "bar")
 ```
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Snowfall
+
+```{r snow, warning = FALSE}
+snow_data = noaa %>%
+  select(year, month, day, id, snow) %>%
+  filter(snow > 0 & snow < 150, 
+         year == "1994":"2008")
+plot_ly(snow_data, y = ~snow, color = ~year, type = "box",
+          colors = "Set2")
+```
 
 ### Max Temp vs Min Temp
 
