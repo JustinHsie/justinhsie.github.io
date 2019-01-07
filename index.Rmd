@@ -4,9 +4,9 @@ title: "Justin Hsie"
 
 ###Hello!
 
-Welcome to my website!
+This website contains some projects I have done as a Biostatistics M.S. student at Columbia University.
 
-Here is my [dashboard](flex.html)
+Here are my [projects](projects.html)
 
 And a picture of my dog
 

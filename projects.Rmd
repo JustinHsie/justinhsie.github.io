@@ -1,0 +1,8 @@
+---
+title: "Projects"
+output: html_document
+---
+
+[Colectomy Website Project](https://tiffttu.github.io/P8105_final_website/)
+
+[Homework dashboard](flex.html)
