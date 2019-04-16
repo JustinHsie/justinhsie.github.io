@@ -6,4 +6,4 @@ title: "About"
 
 Hi! My name is Justin Hsie, and I am a first year M.S. student studying Biostatistics at Columbia University.
 
-Here is my [C.V.](cv.html)
+Here is my [resume](Justin Hsie Resume.pdf)
