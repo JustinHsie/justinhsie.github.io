@@ -3,8 +3,10 @@ title: "Projects"
 output: html_document
 ---
 
-[Colectomy Website Project](https://tiffttu.github.io/P8105_final_website/)
+[Predicting Chance of Admission with Application Data](https://github.com/thecbp/P8106_midterm_project/blob/master/working_report.pdf)
 
-[Accelerometer Project](https://github.com/JustinHsie/p8105_mtp_jih2119/blob/master/p8105_mtp_jih2119.md)
+[Predicting Cancer Mortality Rate](https://github.com/zixuanzhang/BM_Final_Project/blob/master/Biostats%20Methods%20Final%20Project.pdf)
 
-[Graduate School Admissions Project](https://github.com/thecbp/P8106_midterm_project/blob/master/working_report.pdf)
+[Influential Factors in Colectomy Complications ](https://tiffttu.github.io/P8105_final_website/)
+
+[Accelerometer Data](https://github.com/JustinHsie/p8105_mtp_jih2119/blob/master/p8105_mtp_jih2119.md)

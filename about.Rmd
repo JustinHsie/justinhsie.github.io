@@ -4,6 +4,8 @@ title: "About"
 
 <img src = "images/IMG_1045.jpg" style = "width:30%">
 
-Hi! My name is Justin Hsie, and I am a first year M.S. student studying Biostatistics at Columbia University.
+Hi! My name is Justin Hsie 
+
+I am a second year M.S. student studying Biostatistics at Columbia University (expected graduation date May 2020)
 
 Here is my [resume](Justin Hsie Resume.pdf)
