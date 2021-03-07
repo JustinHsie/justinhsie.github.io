@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/vendingmachine.svg" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -21,7 +22,7 @@
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/vendingmachine.svg" alt="" /></span>
 						<h1>Justin Hsie</h1>
-						<p>Software Developer</p>
+						<h3>Software Developer</h3>
 					</header>
 
 				<!-- Nav -->
@@ -59,16 +60,16 @@
 												Soon after, I became immersed in teaching myself everything I could about
 												this new world and all it has to offer. I was fascinated by all the different 
 												technologies, design patterns, and best practices one could employ to 
-												approach the same problem, all in pursuit of writing better code; and I 
-												have been hooked ever since!
+												approach the same problem, all in pursuit of writing better code; and I've 
+												been hooked ever since!
 										</p>
 										<p>
 											In my spare time I like writing and producing music, keeping up with soccer 
 											leagues, and trying out new coffee beans for my morning coffee.
 										</p>
 										<ul class="icons">
-											<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/JustinHsie" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-											<li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinhsie/" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+											<li><a href="https://github.com/JustinHsie" class="icon brands fa-github alt" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+											<li><a href="https://www.linkedin.com/in/justinhsie/" class="icon brands fa-linkedin alt" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
 											<li><a href="mailto: justinhsie1001@gmail.com" class="icon fa-envelope alt"><span class="label">Email</span></a></li>
 										</ul>
 									</div>
@@ -83,22 +84,33 @@
 								</header>
 								<ul class="features">
 									<li>
-										<span class="icon solid major style1 fa-code"></span>
+										<span class="image">
+											<a href="https://eats-nearby.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+												<img class="proj_img" src="EatsNearby.jpg" alt="" /></span>
+											</a>
 										<h3>Eats Nearby</h3>
-										<p>Full-stack CRUD app | React, Redux, PostgreSQL, Nodejs, Express
+										<p>Original full-stack CRUD app <br> React, Redux, PostgreSQL, Nodejs, Express
 										</p>
 										<p>Saves your favorite places and retrieves them in order of proximity to your current location</p>
-										<a style="margin-right: 10px;" target="_blank" rel="noopener noreferrer" href="generic.html">Watch Demo</a>
-										<a style="margin-right: 10px;" target="_blank" rel="noopener noreferrer" href="generic.html">Try it Out!</a>
-										<a target="_blank" rel="noopener noreferrer" href="https://github.com/JustinHsie/eats">GitHub Repo</a>
+										<a class="proj_link" href="generic.html" target="_blank" rel="noopener noreferrer">Watch Demo</a>
+										<a class="proj_link" href="https://eats-nearby.herokuapp.com/" target="_blank" rel="noopener noreferrer">Try it Out!</a>
+										<a href="https://github.com/JustinHsie/eats" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
 									</li>
 									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>Build Your Own World</h3>
-										<p>2D game world generating engine</p>
-										<p><br>Utilizes a recursion algorithm to randomly generate interconnected and explorable rooms and hallways</p>
-										<a style="margin-right: 10px;" target="_blank" rel="noopener noreferrer" href="generic.html">Watch Demo</a>
-										<a target="_blank" rel="noopener noreferrer" href="https://github.com/JustinHsie/cs61b/tree/master/proj3/byow">GitHub Repo</a>
+										<span class="image">
+											<a href="https://eats-nearby.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+												<img class="proj_img" src="the-mind.png" alt="" /></span>
+											</a>
+										<h3>The Mind</h3>
+										<p>Original app adaptation of card game<br>
+											 React, NodeJS, Express, Socket.io
+										</p>
+										<p>Play the multiplayer game with real-time re-rendering of the current game state
+											 across all clients
+										</p>
+										<a class="proj_link" href="generic.html" target="_blank" rel="noopener noreferrer">Watch Demo</a>
+										<a class="proj_link" href="https://the-mind-cardgame.herokuapp.com/" target="_blank" rel="noopener noreferrer">Try it Out!</a>
+										<a href="https://github.com/JustinHsie/the-mind-game" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
 									</li>
 								</ul>
 							</section>
@@ -108,8 +120,8 @@
 								<header class="major">
 									<h2>Resume</h2>
 									<ul class="actions special">
-										<li><a target="_blank" rel="noopener noreferrer" href="resume.pdf" class="button">PDF</a></li>
-										<li><a target="_blank" rel="noopener noreferrer" href="resume.docx" class="button">Word Doc</a></li>
+										<li><a href="Resume-Justin-Hsie.pdf" class="button" target="_blank" rel="noopener noreferrer">PDF</a></li>
+										<li><a href="Resume-Justin-Hsie.docx" class="button" target="_blank" rel="noopener noreferrer">Word Doc</a></li>
 									</ul>
 								</header>
 							</section>
@@ -119,19 +131,19 @@
 								<header class="major">
 									<h2>Contact</h2>
 									<p>
-										Email<br>
+										Email  <br id="email_br">
 										<a href="mailto: justinhsie1001@gmail.com" >justinhsie1001@gmail.com</a>
 									</p>
 									<p>
-										<a target="_blank" rel="noopener noreferrer" href="https://github.com/JustinHsie" >GitHub</a>
+										<a href="https://github.com/JustinHsie" target="_blank" rel="noopener noreferrer">GitHub</a>
 									</p>
 									<p>
-										<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinhsie/" >LinkedIn</a>
+										<a href="https://www.linkedin.com/in/justinhsie/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 									</p><br><br>
 									<footer>
 										<ul class="icons">
-											<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/JustinHsie" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-											<li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinhsie/" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+											<li><a href="https://github.com/JustinHsie" class="icon brands fa-github alt" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+											<li><a href="https://www.linkedin.com/in/justinhsie/" class="icon brands fa-linkedin alt" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
 											<li><a href="mailto: justinhsie1001@gmail.com" class="icon fa-envelope alt"><span class="label">Email</span></a></li>
 										</ul>
 									</header>
@@ -145,8 +157,8 @@
 						<section>
 							<h2>Thanks for visiting!</h2>
 							<ul class="icons">
-								<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/JustinHsie" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinhsie/" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/JustinHsie" class="icon brands fa-github alt" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/justinhsie/" class="icon brands fa-linkedin alt" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
 								<li><a href="mailto: justinhsie1001@gmail.com" class="icon fa-envelope alt"><span class="label">Email</span></a></li>
 							</ul>
 						</section>

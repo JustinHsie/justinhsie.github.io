@@ -72,6 +72,23 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Misc */
+
+.proj_img {
+	max-width: 200px; 
+	min-height: 174px;
+	border: 1px solid #ddd; 
+	margin-bottom: 40px;
+}
+
+.proj_link {
+	margin-right: 10px;
+}
+
+#email_br {
+	display: block;
+}
+
 /* Basic */
 
 	@-ms-viewport {
