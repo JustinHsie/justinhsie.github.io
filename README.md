@@ -11,5 +11,3 @@ I aim to use my statistical and programming skills to build interesting things a
 
 In my spare time I like writing and producing music, keeping up with soccer leagues, and trying out new coffee beans for my morning coffee.
 
-### Contact
-Email: justinhsie1001@gmail.com
