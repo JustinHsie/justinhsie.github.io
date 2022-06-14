@@ -75,10 +75,26 @@ input, select, textarea {
 /* Misc */
 
 .proj_img {
-	max-width: 200px; 
-	min-height: 174px;
+	width: 200px; 
+	height: 174px;
 	border: 1px solid #ddd; 
 	margin-bottom: 40px;
+	transition:all .3s ease;
+}
+
+.proj_img_main {
+	width: 270px; 
+	height: 244px;
+	border: 1px solid #ddd; 
+	margin-bottom: 40px;
+	transition:all .3s ease;
+}
+
+.proj_img:hover, .proj_img_main:hover {
+	transform: scale(1.05);
+	box-shadow: 5px 3px 3px;
+	transition:all .3s ease;
+
 }
 
 .proj_link {
