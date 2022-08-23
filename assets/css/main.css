@@ -92,7 +92,6 @@ input, select, textarea {
 
 .proj_img:hover, .proj_img_main:hover {
 	transform: scale(1.05);
-	box-shadow: 5px 3px 3px;
 	transition:all .3s ease;
 
 }
