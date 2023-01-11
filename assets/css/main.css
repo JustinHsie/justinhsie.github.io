@@ -83,8 +83,8 @@ input, select, textarea {
 }
 
 .proj_img_main {
-	width: 330px; 
-	height: 304px;
+	width: 293px; 
+	height: 266px;
 	border: 1px solid #ddd; 
 	margin-bottom: 40px;
 	transition:all .3s ease;
